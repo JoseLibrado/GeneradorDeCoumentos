@@ -1,0 +1,44 @@
+.row {
+    margin: auto 0;
+    padding: 0;
+}
+.col {
+    padding: 0;
+}
+/*DASHBOARD*/
+.modals {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(1, 1, 1, .8);
+    max-height: 100%;
+    width: 100%;
+}
+body {
+    /* z-index: 1; */
+    position: relative;
+}
+#pantalladescarga,#capturadatos {
+    cursor: pointer;
+}
+.container-folio{
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid gray 1px;
+    display: flex;
+    flex-direction: column;
+}
+.div-proceso {
+    display: flex;
+}
+
+.datos-folio {
+    display: flex;
+    flex: column;
+}
+.asmo {
+    display: flex;
+}
